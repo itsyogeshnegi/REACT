@@ -4,6 +4,7 @@ import Count from "./Projects/Count/Count";
 import Search from "./Projects/Search Bar/Search";
 import TestBar from "./Projects/TestBar/TestBar";
 import Tialwind from "./Projects/Tailwind/Tailwind";
+import BgColor from "./Projects/BgColorChange/BgColor";
 function App() {
   const data = [
     "Afghanistan",
@@ -205,7 +206,8 @@ function App() {
       {/* <Count /> */}
       {/* <TestBar /> */}
       {/* <Search data={data} /> */}
-      <Tialwind />
+      {/* <Tialwind /> */}
+      <BgColor />
     </>
   );
 }
