@@ -3,9 +3,6 @@ import React, { useState } from "react";
 const Search = ({ data }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  const handleSearch = event => {
-    setSearchTerm(event.target.value);
-  };
 
   const filteredData = data.filter(item =>
     item.toLowerCase().includes(searchTerm.toLowerCase())
@@ -17,7 +14,7 @@ const Search = ({ data }) => {
         type="text"
         placeholder="Search..."
         value={searchTerm}
-        onChange={handleSearch}
+        onChange={(e)=> setSearchTerm(e.target.value)}
         style={{ height: "40px", textAlign: "center", width: "250px" }}
       />
       <ul>

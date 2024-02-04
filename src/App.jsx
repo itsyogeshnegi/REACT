@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import Count from "./Projects/Count/Count";
 import Search from "./Projects/Search Bar/Search";
+import TestBar from "./Projects/TestBar/TestBar";
+import Tialwind from "./Projects/Tailwind/Tailwind";
 function App() {
   const data = [
     "Afghanistan",
@@ -201,8 +203,9 @@ function App() {
   return (
     <>
       {/* <Count /> */}
-      <h2>Search Bar</h2>
-      <Search data={data} />
+      {/* <TestBar /> */}
+      {/* <Search data={data} /> */}
+      <Tialwind />
     </>
   );
 }
