@@ -12,11 +12,11 @@ function App() {
   return (
     <>
       {/* <Count /> */}
-      {/* <TestBar /> */}
+      <TestBar />
       {/* <Search/> */}
       {/* <Tialwind /> */}
       {/* <BgColor /> */}
-      <PasswordGenrator />
+      {/* <PasswordGenrator /> */}
     </>
   );
 }

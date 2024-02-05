@@ -1,23 +1,10 @@
 import React, { useState } from "react";
 
-const TestBar = ({data}) => {
-  const [inputType, setInputType] = useState("");
+const TestBar = () => {
 
- const getSearch = data.filter((i)=>{
-    setInputType()
- })
 
   return (
-    <div>
-      <input
-        type="text"
-        placeholder="Search..."
-        value={inputType}
-        onChange={e => setInputType(e.target.value)}
-      />
-
-        
-
+    <div className="h-[100vh] w-full bg-slate-400">
     </div>
   );
 };

@@ -30,8 +30,10 @@ const PasswordGenrator = () => {
   }, [password]);
 
   useEffect(() => {
+    console.log("ref", passwordRef.current);
     genratePassword();
   }, [length, numAllowed, charAllowed, setPassword]);
+
 
   return (
     <div className="h-[100vh] w-full bg-teal-600 flex justify-center items-center flex-col text-center">
