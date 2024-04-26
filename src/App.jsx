@@ -6,13 +6,17 @@ import TestBar from "./Projects/TestBar/TestBar";
 import Tialwind from "./Projects/Tailwind/Tailwind";
 import BgColor from "./Projects/BgColorChange/BgColor";
 import PasswordGenrator from "./Projects/passwordGenrator/PasswordGenrator";
+import CardsBoard from "./Projects/FAQ/CardsBoard";
+import Todo from "./Projects/Todo/Todo";
 function App() {
  
 
   return (
     <>
+      <Todo />
+      {/* <CardsBoard /> */}
       {/* <Count /> */}
-      <TestBar />
+      {/* <TestBar /> */}
       {/* <Search/> */}
       {/* <Tialwind /> */}
       {/* <BgColor /> */}
