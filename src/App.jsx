@@ -8,12 +8,14 @@ import BgColor from "./Projects/BgColorChange/BgColor";
 import PasswordGenrator from "./Projects/passwordGenrator/PasswordGenrator";
 import CardsBoard from "./Projects/FAQ/CardsBoard";
 import Todo from "./Projects/Todo/Todo";
+import Calculator from "./Projects/Calculator/Calculator";
 function App() {
  
 
   return (
     <>
-      <Todo />
+      <Calculator />
+      {/* <Todo /> */}
       {/* <CardsBoard /> */}
       {/* <Count /> */}
       {/* <TestBar /> */}
